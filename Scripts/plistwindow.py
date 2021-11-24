@@ -2843,3 +2843,4 @@ class PlistWindow(tk.Toplevel):
             else:
                 tags.append("odd" if x % 2 else "even")
             self._tree.item(item, tags=tags)
+
